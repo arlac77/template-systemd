@@ -5,6 +5,7 @@
     }
   },
   "template": {
+    "usedBy": [ "arlac77/npm-package-template-kronos-app" ],
     "files": [
       {
         "merger": "INI",
