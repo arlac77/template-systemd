@@ -5,10 +5,10 @@
     }
   },
   "template": {
-    "usedBy": [ "arlac77/npm-package-template-kronos-app" ],
-    "files": [
+    "usedBy": [ "arlac77/template-kronos-app" ],
+    "mergers": [
       {
-        "merger": "INI",
+        "type": "INI",
         "pattern": "**/*.service",
         "options": {
           "messagePrefix": "fix(systemd): ",
@@ -16,7 +16,7 @@
         }
       },
       {
-        "merger": "INI",
+        "type": "INI",
         "pattern": "**/*.socket",
         "options": {
           "messagePrefix": "fix(systemd): ",
@@ -24,7 +24,7 @@
         }
       },
       {
-        "merger": "INI",
+        "type": "INI",
         "pattern": "**/*.mount",
         "options": {
           "messagePrefix": "fix(systemd): ",
