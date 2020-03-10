@@ -5,7 +5,10 @@
     }
   },
   "template": {
-    "usedBy": [ "arlac77/template-kronos-app" ],
+    "usedBy": [
+      "arlac77/hook-ci",
+      "arlac77/template-kronos-app"
+    ],
     "mergers": [
       {
         "type": "INI",
