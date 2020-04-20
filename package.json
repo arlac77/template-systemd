@@ -35,6 +35,22 @@
           "messagePrefix": "fix(systemd): ",
           "expand": false
         }
+      },
+      {
+        "type": "MergeLineSet",
+        "pattern": "**/sysusers.conf",
+        "options": {
+          "messagePrefix": "fix(systemd): ",
+          "expand": false
+        }
+      },
+      {
+        "type": "MergeLineSet",
+        "pattern": "**/tmpfiles.conf",
+        "options": {
+          "messagePrefix": "fix(systemd): ",
+          "expand": false
+        }
       }
     ]
   }
