@@ -8,7 +8,8 @@
     "usedBy": [
       "arlac77/hook-ci",
       "arlac77/npm-template-sync-github-hook",
-      "arlac77/template-kronos-app"
+      "arlac77/template-kronos-app",
+      "k0nsti/konsum"
     ],
     "mergers": [
       {
