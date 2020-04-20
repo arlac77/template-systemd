@@ -41,7 +41,8 @@
         "pattern": "**/sysusers.conf",
         "options": {
           "messagePrefix": "fix(systemd): ",
-          "expand": false
+          "expand": false,
+          "defaultIgnore": [""]
         }
       },
       {
@@ -49,7 +50,8 @@
         "pattern": "**/tmpfiles.conf",
         "options": {
           "messagePrefix": "fix(systemd): ",
-          "expand": false
+          "expand": false,
+          "defaultIgnore": [""]
         }
       }
     ]
