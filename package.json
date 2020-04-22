@@ -17,7 +17,10 @@
         "pattern": "**/*.service",
         "options": {
           "messagePrefix": "fix(systemd): ",
-          "expand": false
+          "expand": false,
+          "mergeHints":{
+            "*" : { "overwrite" : false }
+          }
         }
       },
       {
@@ -25,7 +28,10 @@
         "pattern": "**/*.socket",
         "options": {
           "messagePrefix": "fix(systemd): ",
-          "expand": false
+          "expand": false,
+          "mergeHints":{
+            "*" : { "overwrite" : false }
+          }
         }
       },
       {
@@ -33,7 +39,10 @@
         "pattern": "**/*.mount",
         "options": {
           "messagePrefix": "fix(systemd): ",
-          "expand": false
+          "expand": false,
+          "mergeHints":{
+            "*" : { "overwrite" : false }
+          }
         }
       },
       {
