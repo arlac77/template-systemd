@@ -17,7 +17,21 @@
         "pattern": "**/*.service",
         "options": {
           "messagePrefix": "fix(systemd): ",
-          "expand": false
+          "expand": false,
+          "mergeHints" : {
+            "Service": {
+              "overwrite" : false,
+              "orderBy": [
+                "Type",
+                "ExecStart",
+                "ExecReload",
+                "TimeoutStartSec",
+                "TimeoutStopSec",
+                "User",
+                "Group",
+                "SupplementaryGroups"
+              ]
+          }
         }
       },
       {
