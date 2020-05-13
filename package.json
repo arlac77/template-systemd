@@ -37,6 +37,7 @@
                 "ExecReload",
                 "ExecStop",
                 "ExecStopPost",
+                "Environment",
                 "RestartSec",
                 "TimeoutStartSec",
                 "TimeoutStopSec",
