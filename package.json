@@ -1,7 +1,7 @@
 {
   "pacman": {
     "depends": {
-      "systemd": ">=246.1"
+      "systemd": ">=246.2"
     }
   },
   "template": {
@@ -20,6 +20,102 @@
           "mergeHints": {
             "*": {
               "overwrite": false
+            },
+            "Unit": {
+              "orderBy": [
+                "Description",
+                "Documentation",
+                "Wants",
+                "Requires",
+                "Requisite",
+                "BindsTo",
+                "PartOf",
+                "Conflicts",
+                "Before",
+                "After",
+                "OnFailure",
+                "PropagatesReloadTo",
+                "ReloadPropagatedFrom",
+                "JoinsNamespaceOf",
+                "RequiresMountsFor",
+                "OnFailureJobMode",
+                "IgnoreOnIsolate",
+                "StopWhenUnneeded",
+                "RefuseManualStart",
+                "RefuseManualStop",
+                "AllowIsolate",
+                "DefaultDependencies",
+                "CollectMode",
+                "FailureAction",
+                "SuccessAction",
+                "FailureActionExitStatus",
+                "SuccessActionExitStatus",
+                "JobTimeoutSec",
+                "JobRunningTimeoutSec",
+                "JobTimeoutAction",
+                "JobTimeoutRebootArgument",
+                "StartLimitIntervalSec",
+                "StartLimitBurst",
+                "StartLimitAction",
+                "RebootArgument",
+                "SourcePath",
+                "ConditionArchitecture",
+                "ConditionVirtualization",
+                "ConditionHost",
+                "ConditionKernelCommandLine",
+                "ConditionKernelVersion",
+                "ConditionEnvironment",
+                "ConditionSecurity",
+                "ConditionCapability",
+                "ConditionNeedsUpdate",
+                "ConditionFirstBoot",
+                "ConditionPathExists",
+                "ConditionPathExistsGlob",
+                "ConditionPathIsDirectory",
+                "ConditionPathIsSymbolicLink",
+                "ConditionPathIsMountPoint",
+                "ConditionPathIsReadWrite",
+                "ConditionPathIsEncrypted",
+                "ConditionDirectoryNotEmpty",
+                "ConditionFileNotEmpty",
+                "ConditionFileIsExecutable",
+                "ConditionUser",
+                "ConditionGroup",
+                "ConditionControlGroupController",
+                "ConditionMemory",
+                "ConditionCPUs",
+                "AssertArchitecture",
+                "AssertVirtualization",
+                "AssertHost",
+                "AssertKernelCommandLine",
+                "AssertKernelVersion",
+                "AssertSecurity",
+                "AssertCapability",
+                "AssertACPower",
+                "AssertNeedsUpdate",
+                "AssertFirstBoot",
+                "AssertPathExists",
+                "AssertPathExistsGlob",
+                "AssertPathIsDirectory",
+                "AssertPathIsSymbolicLink",
+                "AssertPathIsMountPoint",
+                "AssertPathIsReadWrite",
+                "AssertDirectoryNotEmpty",
+                "AssertFileNotEmpty",
+                "AssertFileIsExecutable",
+                "AssertUser",
+                "AssertGroup",
+                "AssertControlGroupController"
+              ]
+            },
+            "Install": {
+              "orderBy": [
+                "Alias",
+                "WantedBy",
+                "RequiredBy",
+                "Also",
+                "DefaultInstance"
+              ]
             },
             "Service": {
               "orderBy": [
