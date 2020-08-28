@@ -6,6 +6,7 @@
   },
   "template": {
     "usedBy": [
+      "arlac77/npm-dep-graph",
       "arlac77/npm-template-sync-github-hook",
       "arlac77/template-kronos-app",
       "k0nsti/konsum"
