@@ -253,7 +253,7 @@
           "expand": false,
           "mergeHints": {
             "*": {
-              "overwrite": false,
+              "overwrite": false
             },
             "Socket": {
               "orderBy": [
