@@ -339,7 +339,7 @@
         "options": {
           "messagePrefix": "fix(systemd): ",
           "expand": false,
-          "defaultIgnore": [
+          "ignore": [
             ""
           ]
         }
@@ -350,7 +350,7 @@
         "options": {
           "messagePrefix": "fix(systemd): ",
           "expand": false,
-          "defaultIgnore": [
+          "ignore": [
             ""
           ]
         }
