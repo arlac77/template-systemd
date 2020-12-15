@@ -23,6 +23,8 @@
             },
             "Unit": {
               "orderBy": [
+                "LoadCredential",
+                "SetCredential",
                 "Description",
                 "Documentation",
                 "Wants",
