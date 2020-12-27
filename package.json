@@ -8,7 +8,7 @@
     "usedBy": [
       "arlac77/npm-dep-graph",
       "arlac77/template-kronos-app",
-      "k0nsti/konsum"
+      "konsumation/konsum"
     ],
     "mergers": [
       {
