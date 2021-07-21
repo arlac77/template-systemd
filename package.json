@@ -1,7 +1,7 @@
 {
   "pacman": {
     "depends": {
-      "systemd": ">=249"
+      "systemd": ">=249.1"
     }
   },
   "template": {
