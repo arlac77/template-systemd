@@ -32,6 +32,7 @@
                 "Requisite",
                 "BindsTo",
                 "PartOf",
+                "Upholds",
                 "Conflicts",
                 "Before",
                 "After",
