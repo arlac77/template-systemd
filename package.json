@@ -1,5 +1,5 @@
 {
-  "pacman": {
+  "pkg": {
     "depends": {
       "systemd": ">=250.3"
     }
