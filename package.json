@@ -1,7 +1,7 @@
 {
   "pkg": {
     "depends": {
-      "systemd": ">=250.3"
+      "systemd": ">=250.4"
     }
   },
   "template": {
