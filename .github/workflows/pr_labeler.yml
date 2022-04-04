@@ -1,0 +1,6 @@
+
+systemd:
+  - "**/*.service"
+  - "**/*.path"
+  - "**/*.socket"
+  - "**/*.timer"
