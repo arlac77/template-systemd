@@ -1,5 +1,5 @@
 {
-  "pkg": {
+  "pkgbuild": {
     "depends": {
       "systemd": ">=250.4"
     }
