@@ -1,9 +1,4 @@
 {
-  "pkgbuild": {
-    "depends": {
-      "systemd": ">=251"
-    }
-  },
   "template": {
     "usedBy": [
       "arlac77/npm-dep-graph",
