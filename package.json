@@ -1,7 +1,6 @@
 {
   "template": {
     "usedBy": [
-      "arlac77/npm-dep-graph",
       "arlac77/template-kronos-app"
     ],
     "mergers": [
