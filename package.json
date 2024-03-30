@@ -1,7 +1,8 @@
 {
   "template": {
     "usedBy": [
-      "arlac77/template-kronos-app"
+      "arlac77/template-kronos-app",
+      "konsumation/konsum"
     ],
     "mergers": [
       {
