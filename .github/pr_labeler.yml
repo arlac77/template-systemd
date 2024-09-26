@@ -1,6 +1,8 @@
 
 systemd:
-  - "**/*.service"
-  - "**/*.path"
-  - "**/*.socket"
-  - "**/*.timer"
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.service"
+      - "**/*.path"
+      - "**/*.socket"
+      - "**/*.timer"
