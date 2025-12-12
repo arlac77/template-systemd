@@ -130,6 +130,7 @@
                 "ExecStop",
                 "ExecStopPost",
                 "Environment",
+                "EnvironmentFile",
                 "RestartSec",
                 "TimeoutStartSec",
                 "TimeoutStopSec",
