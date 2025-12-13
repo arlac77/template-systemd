@@ -129,6 +129,8 @@
                 "ExecReload",
                 "ExecStop",
                 "ExecStopPost",
+                "LoadCredential",
+                "SetCredential",
                 "Environment",
                 "EnvironmentFile",
                 "RestartSec",
