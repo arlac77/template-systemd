@@ -7,7 +7,7 @@
     "mergers": [
       {
         "type": "INI",
-        "pattern": "**/*.service",
+        "pattern": "**/*.service-disabled",
         "options": {
           "messagePrefix": "fix(systemd): ",
           "expand": false,
